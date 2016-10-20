@@ -1,0 +1,31 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "✅ React Boilerplate using webpack with hot loader and css modules",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "open http://localhost:8080 && webpack-dev-server --history-api-fallback"
+  },
+  "author": "Loic Laudet <dlodz.me@gmail.com> (https://twitter.com/loiclaudet)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.22.0",
+    "postcss-loader": "^1.0.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
