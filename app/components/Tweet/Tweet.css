@@ -1,0 +1,48 @@
+.tweet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font: 1em Helvetica, sans-serif;
+  width: 30%;
+  margin: auto;
+}
+
+.contentArea {
+  position: relative;
+  display: flex;
+}
+
+.textarea {
+  width: 100%;
+  flex: 1;
+
+}
+
+.counter, .counterRed {
+  position: absolute;
+  bottom: .5em;
+  right: .5em;
+  font-size: .8em;
+}
+
+.counterRed {
+  color: red;
+}
+
+.lockedButton, .sendButton {
+  margin: 1em;
+  align-self: flex-end;
+  border: none;
+  border-radius: 2px;
+  font-size: 1em;
+  padding: .2em .6em;
+  opacity: 1;
+  color: white;
+  background: cornflowerblue;
+  transition: opacity .1s linear;
+}
+
+.lockedButton {
+  opacity: .6;
+}
