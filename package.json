@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "tweeeet",
   "version": "0.0.1",
-  "description": "✅ React Boilerplate using webpack with hot loader and css modules",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
